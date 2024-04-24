@@ -1,3 +1,9 @@
+
+const feather = require('feather-icons');
+setTimeout(() => {
+    feather.replace();
+}, 1000);
+
 const Main = () => {
     return <main>
         <h1></h1>
@@ -11,6 +17,7 @@ const Main = () => {
                   <p class="font-monospace">Polos resistentes y duraderos</p>
 
                 </center>
+                
                 <div class="container">
                 <div id="carouselExampleIndicators" class="carousel slide">
                     <div class="carousel-indicators">

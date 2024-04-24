@@ -14,7 +14,10 @@ const Aside = () => {
                     </div>
                     <center>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-3">Confirmar</button>
+                            <button type="submit" class="btn btn-primary mb-3">
+                            <i data-feather="save"></i>
+                            Confirmar
+                            </button>
                         </div>
                     </center>
                     </div>
@@ -35,7 +38,10 @@ const Aside = () => {
                   </div>
                 <center>
                     <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-3">Confirmar</button>
+                        <button type="submit" class="btn btn-primary mb-3">
+                        <i data-feather="save"></i>
+                        Confirmar
+                        </button>
                     </div>
                 </center>
     </aside>;
