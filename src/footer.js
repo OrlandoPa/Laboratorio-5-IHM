@@ -4,7 +4,7 @@ const Footer = () => {
             <div class="col-md-4 navbar-colorcustom">
                 <center>
                     <h2 fs-5 class="font-monospace">UBICACION</h2>
-                    <p class="font-monospace">Av. Villareal 250, Trujillo, Peru</p>
+                    <i data-feather="map-pin"></i><p class="font-monospace">Av. Villareal 250, Trujillo, Peru</p>
                     <p class="font-monospace">Cruzando con Av. Santa</p>
                 </center>
             </div>
@@ -12,7 +12,7 @@ const Footer = () => {
                 <center>
                     <h2 class="font-monospace">CONTACTOS</h2>
                     <p class="font-monospace">LLamadas al</p>
-                    <p class="font-monospace">923 170 004</p>
+                    <p class="font-monospace"><i data-feather="phone"> </i>923 170 004</p>
                 </center>
             </div>
             <div class="col-md-4 navbar-colorcustom">
