@@ -15,7 +15,7 @@ const Aside = () => {
                     <center>
                         <div class="col-auto">
                             <button type="submit" class="btn btn-primary mb-3">
-                            <i data-feather="save"></i>
+                            <i data-feather="check"></i>
                             Confirmar
                             </button>
                         </div>
@@ -27,9 +27,17 @@ const Aside = () => {
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com"></input>
                   </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Texto de ejemplo</label>
+                    <label for="exampleFormControlTextarea1" class="form-label">Cuadro de texto</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+                <center>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-3">
+                            <i data-feather="check"></i>
+                            Confirmar
+                            </button>
+                        </div>
+                    </center>
 
                 <h1>ENVIA TUS FOTOS DE POLOS QUE DESEES</h1>
                   <div class="mb-3">
@@ -39,8 +47,8 @@ const Aside = () => {
                 <center>
                     <div class="col-auto">
                         <button type="submit" class="btn btn-primary mb-3">
-                        <i data-feather="save"></i>
-                        Confirmar
+                        <i data-feather="upload"></i>
+                        Subir
                         </button>
                     </div>
                 </center>

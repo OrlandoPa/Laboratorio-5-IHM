@@ -34,7 +34,7 @@ const Header = () => {
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar"></input>
                 <button class="btn btn-outline-primary" type="submit">
-                
+                <i data-feather="search"></i>
                 Buscar
                 </button>
             </form>
